@@ -37,17 +37,7 @@ for(i=0;i<N;i++)
   cout<<b[i][j]<<" ";
  }
 }
-void main()
-{
-clrscr();
-int ch,i,j,N,A[10][10];
-char y;
-while(y=='y'||y=='Y')
-{
-cout<<"\nEnter N";
-cin>>N;
-for(i=0;i<N;i++)
- for(j=0;j<N;j++)
+
   {
    cout<<"enter element";
    cin>>A[i][j];
