@@ -37,13 +37,6 @@ public class ShortestPathInAMaze {
 		
 	}
 	
-	static boolean isValid(int a[][], int i, int j, boolean vis[][]) {
-		int rows = a.length;
-		int cols = a[0].length;
-		
-		return i >= 0 && j >= 0 && i < rows && j < cols && a[i][j] == 1 &&
-				!vis[i][j];
-	}
 	
 	static int shortestPath(int a[][], int i, int j, int x, int y, boolean vis[][]) {
 		
